@@ -1,0 +1,8 @@
+- toronto-test.osm: sample map area file
+- audit_kvalues.py: code used to audit the 3 kvalues analyzed in the project (postal code, city and street). First used it to audit the sample data, then post cleaning, used it to audit the actual audited data to ensure the correct changes have been implemented. 
+- improve_data: addresses issues found with the 3 kvalues, for the toronto.osm file, output to toronto_audit.osm file
+- prepare_csv: prepare the csvs for the tables, to be imported into the database
+- create_db.py: used to create the database from the csv files
+- schema.py: the schema for the database that's created
+- filesize.py: used to get the map area file size
+- users: gets the number of unique users for the map area dataset
